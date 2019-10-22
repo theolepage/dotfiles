@@ -213,6 +213,7 @@ alias grep='grep --color=auto'
 #############
 autoload -U compinit
 compinit
+bindkey -e
 bindkey "^?" backward-delete-char
 bindkey '^[OH' beginning-of-line
 bindkey '^[OF' end-of-line

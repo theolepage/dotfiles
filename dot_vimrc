@@ -2,14 +2,14 @@ if has("syntax")
     syntax on
 endif
 
-set hlsearch    " hlsearch
+set hlsearch        " hlsearch
 
-set mouse=a     " enable mouse usage
+set mouse=a         " enable mouse usage
 
-set showmatch   " show matching brackets
-set number      " show line numbers
-set cursorline  " highlight current line
-set wildmenu    " visual autocomplete for command menu
+set showmatch       " show matching brackets
+set relativenumber  " show line numbers (relative)
+set cursorline      " highlight current line
+set wildmenu        " visual autocomplete for command menu
 
 set colorcolumn=80
 hi ColorColumn ctermbg=DarkBlue
@@ -24,3 +24,6 @@ set shiftwidth=4
 " Show trailing whitespaces
 set listchars=tab:>-,trail:·
 set list
+
+" Move to previous/next line when cursor is on first/last character
+set whichwrap+=<,>,[,]
