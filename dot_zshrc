@@ -3,6 +3,7 @@
 #######################################################
 
 export EDITOR='vim'
+export PATH=~/.npm-global/bin:$PATH
 
 ### Set/unset ZSH options
 #########################
@@ -185,6 +186,7 @@ mcd () {
 alias gl="git log --oneline"
 alias gs="git status"
 alias gp="git push origin master --set-upstream"
+alias gccx="gcc -Wall -Werror -Wextra -std=c99 -pedantic"
 alias cls="clear"
 alias ..="cd .."
 alias cd..="cd .."
